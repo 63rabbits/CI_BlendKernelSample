@@ -13,6 +13,9 @@
 		3342B77C2A5413E50061B51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3342B77A2A5413E50061B51D /* Main.storyboard */; };
 		3342B77E2A5413E80061B51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3342B77D2A5413E80061B51D /* Assets.xcassets */; };
 		3342B7812A5413E80061B51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3342B77F2A5413E80061B51D /* LaunchScreen.storyboard */; };
+		334F137B2A5E948C0095196C /* CI_BlendKernelSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F13792A5E948C0095196C /* CI_BlendKernelSample.png */; };
+		334F137C2A5E948C0095196C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 334F137A2A5E948C0095196C /* README.md */; };
+		334F138E2A5E9EA00095196C /* CI_BlendKernelSample_proc.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F138D2A5E9EA00095196C /* CI_BlendKernelSample_proc.png */; };
 		33B0497D2A59E6FF00E6DAAC /* Kernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = 33B0497C2A59E6FF00E6DAAC /* Kernel.metal */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		3342B77D2A5413E80061B51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3342B7802A5413E80061B51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3342B7822A5413E80061B51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334F13792A5E948C0095196C /* CI_BlendKernelSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CI_BlendKernelSample.png; sourceTree = "<group>"; };
+		334F137A2A5E948C0095196C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		334F138D2A5E9EA00095196C /* CI_BlendKernelSample_proc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CI_BlendKernelSample_proc.png; sourceTree = "<group>"; };
 		33B0497C2A59E6FF00E6DAAC /* Kernel.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Kernel.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +48,9 @@
 		3342B7682A5413E50061B51D = {
 			isa = PBXGroup;
 			children = (
+				334F138D2A5E9EA00095196C /* CI_BlendKernelSample_proc.png */,
+				334F13792A5E948C0095196C /* CI_BlendKernelSample.png */,
+				334F137A2A5E948C0095196C /* README.md */,
 				3342B7732A5413E50061B51D /* CI_BlendKernelSample */,
 				3342B7722A5413E50061B51D /* Products */,
 			);
@@ -128,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334F138E2A5E9EA00095196C /* CI_BlendKernelSample_proc.png in Resources */,
 				3342B7812A5413E80061B51D /* LaunchScreen.storyboard in Resources */,
 				3342B77E2A5413E80061B51D /* Assets.xcassets in Resources */,
+				334F137C2A5E948C0095196C /* README.md in Resources */,
+				334F137B2A5E948C0095196C /* CI_BlendKernelSample.png in Resources */,
 				3342B77C2A5413E50061B51D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
